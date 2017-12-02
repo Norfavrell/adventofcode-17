@@ -11,14 +11,6 @@
        (clojure.string/split-lines (slurp file))))
 
 
-; -- Checksum
-(with-test
-  (defn checksum [data]
-    (reduce +
-            (map (fn [line] (- (apply max line) (apply min line))) data)))
-
-  (is (= 18 (checksum [[5 1 9 5] [7 5 3] [2 4 6 8]]))))
-
 ; -- Find evenly divisible
 (with-test
   (defn find-divisible [row]
@@ -28,17 +20,42 @@
   (is (= #{#{3 9}} (find-divisible [9 4 7 3])))
   (is (= #{#{3 6}} (find-divisible [3 8 6 5]))))
 
-; -- Checksum2
-(with-test
-  (defn checksum-div [data]
-    (reduce + (map (fn [row] (let [divs (first (find-divisible row))] (/ (apply max divs) (apply min divs))))
-                   data)))
 
-  (is (= 9 (checksum-div [[5 9 2 8] [9 4 7 3] [3 8 6 5]]))))
+; -- Max-Min row checksum
+(with-test
+  (defn row-checksum-maxmin [row] (- (apply max row) (apply min row)))
+
+  (is (= 8 (row-checksum-maxmin [5 1 9 5])))
+  (is (= 4 (row-checksum-maxmin [7 5 3])))
+  (is (= 6 (row-checksum-maxmin [2 4 6 8]))))
+
+
+; -- Div row checksum
+(with-test
+  (defn row-checksum-div [row]
+    (let [divs (first (find-divisible row))] (/ (apply max divs) (apply min divs))))
+
+  (is (= 4 (row-checksum-div [5 9 2 8])))
+  (is (= 3 (row-checksum-div [9 4 7 3])))
+  (is (= 2 (row-checksum-div [3 8 6 5]))))
+
+
+; -- Checksum
+(with-test
+  (defn checksum [row-checksum data]
+    (reduce + (map row-checksum data)))
+
+  (is (= 18 (checksum row-checksum-maxmin [[5 1 9 5] [7 5 3] [2 4 6 8]])))
+  (is (= 9 (checksum row-checksum-div [[5 9 2 8] [9 4 7 3] [3 8 6 5]]))))
+
 
 
 (defn -main [data-file]
-  (test #'checksum)
+  (test #'row-checksum-maxmin)
   (test #'find-divisible)
+  (test #'row-checksum-div)
+  (test #'checksum)
 
-  (println (checksum-div (parse-file data-file))))
+  (let [data (parse-file data-file)]
+    (println "PartA: " (checksum row-checksum-maxmin data))
+    (println "PartB: " (checksum row-checksum-div data))))
