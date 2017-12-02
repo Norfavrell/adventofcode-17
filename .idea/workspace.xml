@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4420a4f-3743-4e95-b55c-1a0db552d4ae" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_math_combinatorics_0_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/day1.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/day2.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adventofcode_17/day2.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adventofcode-17.iml" afterPath="$PROJECT_DIR$/adventofcode-17.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adventofcode_17/day1.clj" afterPath="$PROJECT_DIR$/src/adventofcode_17/day1.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/adventofcode_17/day1_test.clj" afterPath="$PROJECT_DIR$/test/adventofcode_17/day1_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,58 +23,64 @@
       <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            <state relative-caret-position="126">
+              <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day1.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day2.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/adventofcode_17/day2.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day1.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/day1.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="702">
+                <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day2.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/day2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="792">
+                <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day2.in" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/day2.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day1.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/adventofcode_17/day1.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day1.in" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/day1.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2026" lean-forward="false" selection-start-line="0" selection-start-column="2026" selection-end-line="0" selection-end-column="2026" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".lein-failures" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.lein-failures">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15516">
-              <caret line="862" column="6" lean-forward="false" selection-start-line="862" selection-start-column="6" selection-end-line="862" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="432">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="38" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -82,16 +91,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day1_test.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/adventofcode_17/day1_test.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,10 +113,13 @@
         <option value="$PROJECT_DIR$/src/day1.clj" />
         <option value="$PROJECT_DIR$/test/adventofcode_17/core_test.clj" />
         <option value="$PROJECT_DIR$/test/adventofcode_17/day1.clj" />
-        <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/resources/day1.in" />
         <option value="$PROJECT_DIR$/test/adventofcode_17/day1_test.clj" />
         <option value="$PROJECT_DIR$/src/adventofcode_17/day1.clj" />
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/adventofcode_17/day2.clj" />
+        <option value="$PROJECT_DIR$/doc/day1.md" />
+        <option value="$PROJECT_DIR$/doc/day2.md" />
       </list>
     </option>
   </component>
@@ -160,7 +162,7 @@
             <path>
               <item name="adventofcode-17" type="b2602c69:ProjectViewProjectNode" />
               <item name="adventofcode-17" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adventofcode-17" type="b2602c69:ProjectViewProjectNode" />
@@ -203,7 +205,7 @@
       <recent name="$PROJECT_DIR$/src/adventofcode_17" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1512224544211">{:repl-history {:ide [], :local [{:command &quot;(let [x [1 2 3]]\n  \n  \n  )&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(let [x [1 2 3]]\n  (match [x]\n         [[1 2 _]] :a0\n         :else :a1)\n  \n  )&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(let [x true\n      y true\n      z true]\n  (match [x y z]\n         [_ false true] 1\n         [false true _ ] 2\n         [_ _ false] 3\n         [_ _ true] 4\n         :else 5))&quot;, :offset 173, :ns &quot;user&quot;} {:command &quot;(:requre core.match)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(let [x true\n      y true\n      z true]\n  (match [x y z]\n         [_ false true] 1\n         [false true _ ] 2\n         [_ _ false] 3\n         [_ _ true] 4\n         :else 5))#&quot;, :offset 174, :ns &quot;user&quot;} {:command &quot;int '1'&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;int '1&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;int '10&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;int '2&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(map int [1 2 3])&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(map int ['1 '2 '3])&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;int \\1&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;int \\9&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;\&quot;a\&quot;&quot;, :offset 3, :ns &quot;user&quot;} {:command &quot;(seq \&quot;aa\&quot;)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(seq \&quot;1122\&quot;)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(map int (seq \&quot;1122\&quot;))&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(map Integer/parseInt (seq \&quot;1122\&quot;))&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(map (comp int (- 48)) (seq \&quot;1122\&quot;))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(map Character/digit (seq \&quot;1122\&quot;))&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;(map (Character/digit _ 10) (seq \&quot;1122\&quot;))&quot;, :offset 41, :ns &quot;user&quot;} {:command &quot;(map (Character/digit 1) (seq \&quot;1122\&quot;))&quot;, :offset 38, :ns &quot;user&quot;} {:command &quot;(map (fn [x] (Character.digit x 10)) (seq \&quot;1122\&quot;))&quot;, :offset 50, :ns &quot;user&quot;} {:command &quot;(map (fn [x] (Character/digit x 10)) (seq \&quot;1122\&quot;))&quot;, :offset 50, :ns &quot;user&quot;} {:command &quot;(:require [clojure.java.io :as io] [clojure.core.match :refer [match]])&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(:require [clojure.core.match :refer [match]])&quot;, :offset 46, :ns &quot;user&quot;} {:command &quot;(count [1 1 2 2])&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(drop 1 (cycle [1 1 2 2]))&quot;, :offset 26, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1512227218640">{:repl-history {:ide [], :local [{:command &quot;(let [x [1 2 3]]\n  \n  \n  )&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(let [x [1 2 3]]\n  (match [x]\n         [[1 2 _]] :a0\n         :else :a1)\n  \n  )&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(let [x true\n      y true\n      z true]\n  (match [x y z]\n         [_ false true] 1\n         [false true _ ] 2\n         [_ _ false] 3\n         [_ _ true] 4\n         :else 5))&quot;, :offset 173, :ns &quot;user&quot;} {:command &quot;(:requre core.match)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(let [x true\n      y true\n      z true]\n  (match [x y z]\n         [_ false true] 1\n         [false true _ ] 2\n         [_ _ false] 3\n         [_ _ true] 4\n         :else 5))#&quot;, :offset 174, :ns &quot;user&quot;} {:command &quot;int '1'&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;int '1&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;int '10&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;int '2&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(map int [1 2 3])&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(map int ['1 '2 '3])&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;int \\1&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;int \\9&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;\&quot;a\&quot;&quot;, :offset 3, :ns &quot;user&quot;} {:command &quot;(seq \&quot;aa\&quot;)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(seq \&quot;1122\&quot;)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(map int (seq \&quot;1122\&quot;))&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(map Integer/parseInt (seq \&quot;1122\&quot;))&quot;, :offset 35, :ns &quot;user&quot;} {:command &quot;(map (comp int (- 48)) (seq \&quot;1122\&quot;))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(map Character/digit (seq \&quot;1122\&quot;))&quot;, :offset 34, :ns &quot;user&quot;} {:command &quot;(map (Character/digit _ 10) (seq \&quot;1122\&quot;))&quot;, :offset 41, :ns &quot;user&quot;} {:command &quot;(map (Character/digit 1) (seq \&quot;1122\&quot;))&quot;, :offset 38, :ns &quot;user&quot;} {:command &quot;(map (fn [x] (Character.digit x 10)) (seq \&quot;1122\&quot;))&quot;, :offset 50, :ns &quot;user&quot;} {:command &quot;(map (fn [x] (Character/digit x 10)) (seq \&quot;1122\&quot;))&quot;, :offset 50, :ns &quot;user&quot;} {:command &quot;(:require [clojure.java.io :as io] [clojure.core.match :refer [match]])&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(:require [clojure.core.match :refer [match]])&quot;, :offset 46, :ns &quot;user&quot;} {:command &quot;(count [1 1 2 2])&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(drop 1 (cycle [1 1 2 2]))&quot;, :offset 26, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -216,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.Day1">
+  <component name="RunManager" selected="Clojure Application.Day2">
     <configuration name="Day1" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
       <module name="adventofcode-17" />
       <setting name="path" value="" />
@@ -225,6 +227,16 @@
       <setting name="profiles" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="resources/day1.in" />
+      <setting name="workDir" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Day2" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+      <module name="adventofcode-17" />
+      <setting name="path" value="" />
+      <setting name="namespace" value="adventofcode-17.day2" />
+      <setting name="useLein" value="true" />
+      <setting name="profiles" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="resources/day2.in" />
       <setting name="workDir" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Repl" type="ClojureREPL" factoryName="Local">
@@ -322,10 +334,11 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Clojure Application.Day1" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure REPL.Repl" />
-      <item index="2" class="java.lang.String" itemvalue="Leiningen.Test" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure Application.Day2" />
+      <item index="2" class="java.lang.String" itemvalue="Clojure REPL.Repl" />
+      <item index="3" class="java.lang.String" itemvalue="Leiningen.Test" />
     </list>
   </component>
   <component name="SbtLocalSettings">
@@ -344,15 +357,16 @@
       <option name="presentableId" value="Default" />
       <updated>1512216582034</updated>
       <workItem from="1512216590030" duration="5874000" />
-      <workItem from="1512222802469" duration="1741000" />
+      <workItem from="1512222802469" duration="4415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7615000" />
+    <option name="totallyTimeSpent" value="10289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-4" width="1920" height="1084" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -363,12 +377,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.53802085" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" x="0" y="-24" width="1920" height="1104" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.159375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -424,7 +438,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -516,14 +530,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/adventofcode_17/core.clj" />
     <entry file="file://$PROJECT_DIR$/test/adventofcode_17/core_test.clj" />
-    <entry file="file://$PROJECT_DIR$/adventofcode-17.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.lein-failures">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -536,14 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15516">
           <caret line="862" column="6" lean-forward="false" selection-start-line="862" selection-start-column="6" selection-end-line="862" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -574,9 +572,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/adventofcode_17/day1.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="38" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adventofcode-17.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/day2.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adventofcode_17/day2.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/day1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="702">
+            <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/day2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="792">
+            <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
